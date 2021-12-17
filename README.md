@@ -1,4 +1,4 @@
-# Primera entrega de proyecto final
+# Proyecto final React JS
 
 El proyecto está realizado con react, react router dom y antd design como librería.
 
@@ -6,9 +6,9 @@ El proyecto está realizado con react, react router dom y antd design como libre
 
 NPM 
 
-### About
+### EL Proyecto
 
-El proyecto se trata de una tienda online, en la cual podemos ver nuestra grilla de productos y filtrarlos por categorías para ser mostrados.
+Se trata de una tienda online, en la cual podemos ver nuestra grilla de productos y filtrarlos por categorías para ser mostrados. Tiene una página de detalle de producto, que permite seleccionar cantidad de items, añadirlos al carrito, y avanzar a un proceso de finalizar compra.
 
 ### DB
 
