@@ -1,0 +1,16 @@
+.detailsContainer {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    
+  }
+
+  .detailText{
+      margin-top: 40px;
+      margin-left: 5px;
+  }
+
+
+
+  
+  

@@ -1,0 +1,27 @@
+.productImage{
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.itemCard{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.itemCard:hover {
+    opacity: 0.7;
+  }
+.parrafo{
+    text-align: center;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #5D6D7E ;
+}
+
+.precios{
+    text-align: center;
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #5D6D7E ;
+}
