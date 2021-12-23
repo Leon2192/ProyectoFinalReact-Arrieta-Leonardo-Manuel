@@ -48,7 +48,6 @@ const CartView = () => {
       };
     return (
        <>
-        
             <h2 className={styles.cartTitle} >Carrito</h2>
             <hr/>
             <section>
@@ -64,7 +63,7 @@ const CartView = () => {
             type="primary">
             Vaciar carrito
           </Button>
-                <Button><Link to="/" className=".cartButtons">Volver a tienda</Link></Button>
+                <Button><Link to="/" className=".cartButtons">Seguir comprando</Link></Button>
                 <Button><Link to="/checkout"> Finalizar compra</Link></Button>
         </>
     )

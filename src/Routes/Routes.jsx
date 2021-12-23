@@ -16,7 +16,7 @@ import CheckOut from "../Pages/CashOut";
 
 export const Routes = () => {
     return (
-        <Router>
+     <Router>
       <header>
         <Link to="/">
                <Logo/>

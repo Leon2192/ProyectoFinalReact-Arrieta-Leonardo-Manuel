@@ -28,16 +28,15 @@ const NavBar = () => {
           <Link to={'/'}>Tienda</Link><ShoppingOutlined />
           </a>
         </Menu.Item>
-        <Menu.Item key="app"  icon={<ShoppingCartOutlined />} >
-        <Link to={'/cartview'}>Carrito</Link> 
-        </Menu.Item>
         <Menu.Item key="shop">
           <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
            
           </a>
-          <Badge style={{fontSize: '12px',position:'absolute' ,left:'740px'}} count={cart.reduce((acc, prod) => acc + prod.amount, 0)}>
+          <Link to={'/cartview'}>
+        <Badge style={{fontSize: '12px',position:'absolute' ,left:'740px'}} count={cart.reduce((acc, prod) => acc + prod.amount, 0 )}>
             <ShoppingCartOutlined style={{ fontSize: '22px', color: '#08c',position:'absolute' ,left:'740px', bottom:'0.5px'}}/>
           </Badge>
+          </Link>
         </Menu.Item>
       </Menu>
       </Layout>
