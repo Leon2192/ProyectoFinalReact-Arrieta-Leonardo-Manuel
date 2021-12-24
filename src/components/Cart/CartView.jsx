@@ -13,7 +13,7 @@ const CartView = () => {
         return <div>
                     <h2>Carrito vacío</h2>
                     <hr/>
-                   <Button><Link to="/">Seguir comprando</Link></Button> 
+                   <Button><Link to="/">Ver productos</Link></Button> 
                 </div>
     }
 

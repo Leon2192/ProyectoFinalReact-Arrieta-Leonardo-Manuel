@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Menu, Badge, Layout } from 'antd';
-import { HomeOutlined, ShoppingCartOutlined, ShoppingOutlined, SkinOutlined, CustomerServiceTwoTone, WomanOutlined, ManOutlined,StarTwoTone} from '@ant-design/icons';
+import { HomeOutlined, ShoppingCartOutlined, ShoppingOutlined, CustomerServiceTwoTone, WomanOutlined, ManOutlined,StarTwoTone, MoreOutlined} from '@ant-design/icons';
 import { Link } from "react-router-dom";
 import { CartContext } from "../../Provider/CartContext";
 const { SubMenu } = Menu;
@@ -13,7 +13,7 @@ const NavBar = () => {
         <Menu.Item key="mail" icon={<HomeOutlined />}>
           <Link to={'/'}>Inicio</Link> 
         </Menu.Item>
-        <SubMenu key="SubMenu" icon={<SkinOutlined />} title="Categories">
+        <SubMenu key="SubMenu" icon={<MoreOutlined />} title="Categories">
           <Menu.ItemGroup>
             <Menu.Item icon={<CustomerServiceTwoTone />}  key="setting:1"><Link to='/category/electronics'>Electronics</Link></Menu.Item>
             <Menu.Item icon={<WomanOutlined />} key="setting:2"><Link to='/category/jewelery'>Jewelery</Link></Menu.Item>
@@ -25,7 +25,7 @@ const NavBar = () => {
         </SubMenu>
         <Menu.Item key="alipay" >
           <a href="https://ant.design" target="_blank" rel="noopener noreferrer" >
-          <Link to={'/'}>Tienda</Link><ShoppingOutlined />
+          <Link to={'/cartview'}>Ver compra</Link><ShoppingOutlined />
           </a>
         </Menu.Item>
         <Menu.Item key="shop">

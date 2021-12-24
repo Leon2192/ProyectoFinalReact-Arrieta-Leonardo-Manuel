@@ -14,19 +14,13 @@ Se trata de una tienda online, en la cual podemos ver nuestra grilla de producto
 
 Las peticiones se realizan a través de FireBase.
 
-### `npm run build`
+### API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El proyecto se creó utilizando FakeStoreApi.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### GIF
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+El gif con la muestra de lña navegación se encuentra en Assets.
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
